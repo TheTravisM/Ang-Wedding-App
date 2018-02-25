@@ -1,10 +1,7 @@
-div pm-header h1 { 
-  font-family: 'Germanika';
-}
 /* -- [ Importing all the SCSS Styles ] -- */
 @import "_fonts.scss";
 @import "font-awesome.scss";
-//@import "../libs/bootstrap4/css/bootstrap.scss";
+@import "bootstrap.scss";
 @import "_variables.scss";
 @import "_mixins.scss";
 @import "_header.scss";

@@ -1,9 +1,9 @@
-$shadows-small: multiple-box-shadow(700); 
-$shadows-medium: multiple-box-shadow(200); 
+$shadows-small: multiple-box-shadow(700);
+$shadows-medium: multiple-box-shadow(200);
 $shadows-big: multiple-box-shadow(100);
 
 #header {
-  @include box-shadow-1; 
+  @include box-shadow-1;
   background-color: $primary-color-dark;
   color: #FFF;
   display: flex;
@@ -16,7 +16,7 @@ $shadows-big: multiple-box-shadow(100);
   background: radial-gradient(ellipse at bottom, $primary-color-dark 0%, #090A0F 100%);
   overflow: hidden;
 
-  hgroup {
+  .hgroup {
     align-self: center;
     flex: 1;
   }
