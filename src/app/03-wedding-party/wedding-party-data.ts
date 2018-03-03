@@ -2,7 +2,7 @@ export const Party = {
    'bridesmaids': [
       {
          'name' : 'Megan Barker',
-         'image' : './assets/img/wedding-party/ashden-250px.jpg'
+         'image' : './assets/img/wedding-party/ashden250.jpg'
       },
       {
          'name' : 'Kim Klump',
