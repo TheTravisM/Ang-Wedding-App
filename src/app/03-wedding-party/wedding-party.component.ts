@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Party } from './wedding-party-data';
 
 @Component({
   selector: 'app-wedding-party',
@@ -6,9 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./wedding-party.component.scss']
 })
 export class WeddingPartyComponent implements OnInit {
+  bridesmaids: Array<Object> = Party.bridesmaids;
+  groomsmen: Array<Object> = Party.groomsmen;
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() { }
+  ngOnInit() {}
 
 }

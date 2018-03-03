@@ -44,6 +44,17 @@ main {
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
+
+      .h3-title {
+        color: $primary-color-dark;
+        font-size: 48px;
+        margin: 0 auto 30px;
+        text-align: center;
+        background: -webkit-linear-gradient($primary-color-dark, $primary-color-darker);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
   }
   // Medium devices (tablets, 768px and up)
   @media (min-width: 768px) {

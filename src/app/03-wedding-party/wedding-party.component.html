@@ -1,5 +1,29 @@
 <section id="wedding-party">
   <div class="container">
-    <h4  ngFor="items of list">{{item}}</h4>
+    <div class="row justify-content-center">
+
+      <div class="col-12">
+        <h2 class="title">Wedding Party</h2>
+      </div>
+
+      <!-- Bridesmaids -->
+      <div class="col-12 col-sm-5 col-lg-5 mr-lg-5">
+        <h3 class="h3-title">Bridesmaids</h3>
+        <div class="col-12 mb-4" *ngFor="let person of bridesmaids">
+          <img class="img-fluid img-thumbnail mb-2" src="{{person['image']}}">
+          <h4>{{person['name']}}</h4>
+        </div>
+      </div>
+
+      <!-- Groomsmen -->
+      <div class="col-12 col-sm-5 col-lg-5">
+        <h3 class="h3-title">Groomsmen</h3>
+        <div class="col-12 mb-4" *ngFor="let person of groomsmen">
+          <img class="img-fluid img-thumbnail mb-2" src="{{person['image']}}">
+          <h4>{{person['name']}}</h4>
+        </div>
+      </div>
+
+    </div>
   </div>
 </section>

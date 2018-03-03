@@ -1,6 +1,6 @@
 @mixin wedding-party-image($image) {
-  background: url($image) center top no-repeat;
-  background-size: cover;
+  //background: url($image) center top no-repeat;
+  //background-size: cover;
 }
 
 #wedding-party {
@@ -32,25 +32,5 @@
     position: relative;
     margin-bottom: 30px;
     margin-top: 15px;
-  }
-
-  .ashden {
-    @include wedding-party-image("./assets/img/wedding-party/ashden.jpg");
-  }
-
-  .britany {
-    @include wedding-party-image("./assets/img/wedding-party/britany.jpg");
-  }
-
-  .jackiep {
-    @include wedding-party-image("./assets/img/wedding-party/jackiep.jpg");
-  }
-
-  .jannet {
-    @include wedding-party-image("./assets/img/wedding-party/jannet.jpg");
-  }
-
-  .kim {
-    @include wedding-party-image("./assets/img/wedding-party/kim.jpg");
   }
 }
