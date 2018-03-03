@@ -455,3 +455,6 @@ console.log("parallax");
 
 var scene = $("#scene");
 scene.parallax();
+
+var sceneX = $("#sceneX");
+sceneX.parallax();
