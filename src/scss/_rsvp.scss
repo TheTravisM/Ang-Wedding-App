@@ -1,0 +1,7 @@
+#rsvp-btn {
+  background: $primary-gradient;
+  border-color: $primary-color-dark;
+  &:hover {
+    border-color: $primary-color-darker;
+  }
+}

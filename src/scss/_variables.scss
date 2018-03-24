@@ -14,3 +14,7 @@ $primary-color-rgb: rgb(170,0,255);
 $pimary-color-light-rgb: rgb(226,84,255);
 $primary-color-dark-rgb: rgb(114,0,202);
 
+/* Gradiant */
+
+$primary-gradient: -webkit-linear-gradient($primary-color-dark, $primary-color-darker);
+$primary-gradient-dark: -webkit-linear-gradient($primary-color-darker, $primary-color-darker);

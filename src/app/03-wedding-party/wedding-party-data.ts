@@ -2,7 +2,7 @@ export const Party = {
    'bridesmaids': [
       {
          'name' : 'Megan Barker',
-         'image' : './assets/img/wedding-party/megan-copy.jpg'
+         'image' : './assets/img/wedding-party/megan-250.jpg'
       },
       {
          'name' : 'Kim Klump',
@@ -35,36 +35,36 @@ export const Party = {
    ],
    'groomsmen': [
       {
-         'name' : 'Bryan',
+         'name' : 'Bryan Mikolay',
          'image' : './assets/img/wedding-party/bryan-250.jpg'
       },
       {
-         'name' : 'Shawn',
+        'name' : 'James Mikolay',
+        'image' : './assets/img/wedding-party/james-250.jpg'
+     },
+     {
+        'name' : 'John Mikolay',
+        'image' : './assets/img/wedding-party/john-250.jpg'
+     },
+     {
+        'name' : 'Joe Mikolay',
+        'image' : './assets/img/wedding-party/joe-250.jpg'
+     },
+     {
+        'name' : 'Eliot Pacella',
+        'image' : './assets/img/wedding-party/eliot-250.jpg'
+     },
+     {
+         'name' : 'Shawn Barker',
          'image' : './assets/img/wedding-party/shawn-250.jpg'
       },
       {
-         'name' : 'Jerry',
+         'name' : 'Jerry Barker',
          'image' : './assets/img/wedding-party/jerry-250.jpg'
       },
       {
-         'name' : 'Tom',
+         'name' : 'Tom Barker',
          'image' : './assets/img/wedding-party/tommy-250.jpg'
-      },
-      {
-         'name' : 'James',
-         'image' : './assets/img/wedding-party/james-250.jpg'
-      },
-      {
-         'name' : 'John',
-         'image' : './assets/img/wedding-party/john-250.jpg'
-      },
-      {
-         'name' : 'Joe',
-         'image' : './assets/img/wedding-party/joe-250.jpg'
-      },
-      {
-         'name' : 'Elliot',
-         'image' : './assets/img/wedding-party/eliot-250.jpg'
       }
    ]
 };
