@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn starr
+  /usr/local/bin/node /usr/local/bin/yarn startd
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
@@ -7213,7 +7213,7 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/zone.js/-/zone.js-0.8.20.tgz#a218c48db09464b19ff6fc8f0d4bb5b1046e185d"
 
 Trace: 
-  Error: Command "starr" not found. Did you mean "start"?
+  Error: Command "startd" not found. Did you mean "start"?
       at new MessageError (/usr/local/lib/node_modules/yarn/lib/cli.js:186:110)
       at /usr/local/lib/node_modules/yarn/lib/cli.js:87307:17
       at Generator.next (<anonymous>)

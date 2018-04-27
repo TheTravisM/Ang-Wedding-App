@@ -10,22 +10,23 @@ import { WeddingPartyComponent } from './03-wedding-party/wedding-party.componen
 import { OurStoryComponent } from './04-our-story/our-story.component';
 import { RegistryComponent } from './05-registry/registry.component';
 import { RsvpComponent } from './06-rsvp/rsvp.component';
+import { HotelComponent } from './07-hotel/hotel.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { FooterComponent } from './09-footer/footer.component';
-
 
 @NgModule({
   declarations: [
     AppComponent,
-    WeddingPartyComponent,
     HeaderComponent,
     CountdownComponent,
     LocationComponent,
-    OurStoryComponent,
-    RegistryComponent,
     RsvpComponent,
+    RegistryComponent,
+    WeddingPartyComponent,
+    OurStoryComponent,
     GalleryComponent,
-    FooterComponent
+    FooterComponent,
+    HotelComponent
   ],
   imports: [
     BrowserModule

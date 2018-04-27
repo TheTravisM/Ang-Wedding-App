@@ -7,19 +7,19 @@
       </div>
 
       <!-- Bridesmaids -->
-      <div class="col-12 col-sm-5 col-lg-5 mr-lg-5">
+      <div class="col-12 col-sm-6">
         <h3 class="h3-title">Bridesmaids</h3>
         <div class="col-12 mb-4" *ngFor="let person of bridesmaids">
-          <img class="img-fluid img-thumbnail mb-2" src="{{person['image']}}">
+          <img class="wedding-party-img img-fluid img-thumbnail mb-2" src="{{person['image']}}">
           <h4>{{person['name']}}</h4>
         </div>
       </div>
 
       <!-- Groomsmen -->
-      <div class="col-12 col-sm-5 col-lg-5">
+      <div class="col-12 col-sm-6">
         <h3 class="h3-title">Groomsmen</h3>
         <div class="col-12 mb-4" *ngFor="let person of groomsmen">
-          <img class="img-fluid img-thumbnail mb-2" src="{{person['image']}}">
+          <img class="wedding-party-img img-fluid img-thumbnail mb-2" src="{{person['image']}}">
           <h4>{{person['name']}}</h4>
         </div>
       </div>
