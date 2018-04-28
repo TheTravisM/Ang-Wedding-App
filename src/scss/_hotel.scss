@@ -16,6 +16,7 @@
     .title {
       background: $secondary-gradient-title;
       -webkit-background-clip: text;
+      background-clip: text;
     }
 
     .location-card {
