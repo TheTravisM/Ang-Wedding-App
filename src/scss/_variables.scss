@@ -5,9 +5,10 @@ $pimary-color-light: #e254ff;
 $primary-color-dark: #7200ca;
 $primary-color-darker: #300055;
 
-$seconday-color: #39ff14;
-$seconday-color-light: #82ff5b;
-$seconday-color-dark: #00ca00;
+$secondary-color: #39ff14;
+$secondary-color-light: #82ff5b;
+$secondary-color-dark: #00ca00;
+$secondary-color-darker: #007900;
 
 /* RGB Colors */
 $primary-color-rgb: rgb(170,0,255);
@@ -18,3 +19,7 @@ $primary-color-dark-rgb: rgb(114,0,202);
 
 $primary-gradient: -webkit-linear-gradient($primary-color-dark, $primary-color-darker);
 $primary-gradient-dark: -webkit-linear-gradient($primary-color-darker, $primary-color-darker);
+
+$secondary-gradient: -webkit-linear-gradient($secondary-color, $secondary-color-dark);
+$secondary-gradient-title: -webkit-linear-gradient($secondary-color, $secondary-color-darker);
+$secondary-gradient-dark: -webkit-linear-gradient($secondary-color-dark, $secondary-color-darker);
