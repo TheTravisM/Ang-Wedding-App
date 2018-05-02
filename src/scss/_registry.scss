@@ -2,11 +2,23 @@
 
 /* -- [ REGISTRY ] -- */
 
-#registry-btn-container {
-  align-items: center;
+#registry {
 
-  div {
-    align-self: center;
+  #registry-btn-container {
+    align-items: center;
+
+    div {
+      align-self: center;
+    }
   }
-}
 
+  a img {
+    filter: drop-shadow(0 0 0 $primary-color-darker);
+    -webkit-transition: all .5s; /* Safari */
+    transition: all .5s;
+  }
+  a:hover img {
+    filter: drop-shadow(0 0 2px $primary-color-darker);
+  }
+
+}
