@@ -173,7 +173,7 @@
     background-size: 128px 224px;
     height: 224px;
     width: 128px;
-    background-image: url(./assets/img/footer/lighthouse.png);
+    background-image:url(./assets/img/footer/lighthouse.webp), url(./assets/img/footer/lighthouse.png);
     background-repeat: no-repeat;
     bottom: 64px;
     position: absolute;
@@ -199,11 +199,11 @@
   }
 
   .wave.plain {
-    background-image: url(./assets/img/footer/wave-plain.png);
+    background-image:url(./assets/img/footer/wave-plain.webp), url(./assets/img/footer/wave-plain.png);
   }
 
   .wave.paint {
-    background-image: url(./assets/img/footer/wave-paint.png);
+    background-image:url(./assets/img/footer/wave-plain.webp), url(./assets/img/footer/wave-plain.png);
   }
 
   .light {
