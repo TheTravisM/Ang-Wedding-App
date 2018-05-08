@@ -1,5 +1,4 @@
 #location {
-  @include box-shadow-1;
   background-image: url("./assets/img/location/ihm_BG.webp"), url("./assets/img/location/ihm_BG.png");
   background-repeat: no-repeat;
   background-position: center center;
@@ -23,12 +22,40 @@
 
     .location-card {
       margin-bottom: 20px;
-
     }
 
     iframe.map {
       height: 400px;
       width: 100%;
     }
+  }
+}
+
+#location {
+  background-image: url("./assets/img/location/ihm_BG-576.webp"), url("./assets/img/location/ihm_BG-576.png");
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  #location {
+    background-image: url("./assets/img/location/ihm_BG-768.webp"), url("./assets/img/location/ihm_BG-768.png");
+  }
+}
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  #location {
+    background-image: url("./assets/img/location/ihm_BG-992.webp"), url("./assets/img/location/ihm_BG-992.png");
+  }
+}
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  #location {
+    background-image: url("./assets/img/location/ihm_BG-1200.webp"), url("./assets/img/location/ihm_BG-1200.png");
+  }
+}
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  #location {
+    background-image: url("./assets/img/location/ihm_BG.webp"), url("./assets/img/location/ihm_BG.png");
   }
 }
