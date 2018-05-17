@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { LazyLoadImageModule } from 'ng-lazyload-image';
 import { AppComponent } from './app.component';
 
 import { HeaderComponent } from './00-header/header.component';
@@ -29,7 +29,8 @@ import { FooterComponent } from './09-footer/footer.component';
     HotelComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    LazyLoadImageModule
   ],
   providers: [],
   bootstrap: [AppComponent]

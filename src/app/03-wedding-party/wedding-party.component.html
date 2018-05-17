@@ -11,26 +11,43 @@
         <h3 class="h3-title">Bridesmaids</h3>
         <div class="col-12 mb-5" *ngFor="let person of bridesmaids">
           <picture>
-            <source srcset="{{person['webp']}}" type="image/webp">
-            <source srcset="{{person['image']}}" type="image/jpeg">
-            <img class="wedding-party-img img-fluid img-thumbnail mb-2" src="{{person['image']}}" alt="picture of {{person['name']}}">
+            <source [attr.lazyLoad]="person['webp']">
+            <source [attr.lazyLoad]="person['image']">
+            <img class="wedding-party-img img-fluid img-thumbnail mb-2"
+                [lazyLoad]="image1"
+                [offset]="100">
           </picture>
           <h4>{{person['name']}}</h4>
-          </div>
+        </div>
       </div>
 
-      <!-- Groomsmen -->
-      <div class="col-12 col-sm-6">
-        <h3 class="h3-title">Groomsmen</h3>
-        <div class="col-12 mb-5" *ngFor="let person of groomsmen">
+            <!-- Groomsmen -->
+            <div class="col-12 col-sm-6">
+              <h3 class="h3-title">Groomsmen</h3>
+              <div class="col-12 mb-5" *ngFor="let person of groomsmen">
+                <picture>
+                  <source [attr.lazyLoad]="person['webp']">
+                  <source [attr.lazyLoad]="person['image']">
+                  <img class="wedding-party-img img-fluid img-thumbnail mb-2"
+                      [lazyLoad]="image1"
+                      [offset]="100">
+                </picture>
+                <h4>{{person['name']}}</h4>
+              </div>
+            </div>
+
+
+      <!-- <div class="col-12 col-sm-6">
+        <h3 class="h3-title">Bridesmaids</h3>
+        <div class="col-12 mb-5" *ngFor="let person of bridesmaids">
           <picture>
             <source srcset="{{person['webp']}}" type="image/webp">
             <source srcset="{{person['image']}}" type="image/jpeg">
             <img class="wedding-party-img img-fluid img-thumbnail mb-2" src="{{person['image']}}" alt="picture of {{person['name']}}">
           </picture>
           <h4>{{person['name']}}</h4>
-        </div>
-      </div>
+          </div>
+      </div> -->
 
     </div>
   </div>

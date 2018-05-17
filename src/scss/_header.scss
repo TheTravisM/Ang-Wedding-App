@@ -52,6 +52,7 @@ $shadows-big: multiple-box-shadow(100);
   }
 
   @media (min-width: 576px) {
+    hgroup { }
   }
   // Medium devices (tablets, 768px and up)
   @media (min-width: 768px) {
