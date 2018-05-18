@@ -24,6 +24,11 @@
     align-items: center;
   }
 
+  .footer__title {
+    max-width: 600px;
+    margin: 0 10px;
+  }
+
   time {
     background: -webkit-linear-gradient($secondary-color-light, $secondary-color-dark);
     letter-spacing: .05em;

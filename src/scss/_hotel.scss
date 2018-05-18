@@ -1,5 +1,7 @@
 #hotel {
-  background-image: url("./assets/img/hotel/holidayInn.webp"), url("./assets/img/hotel/holidayInn.jpg");
+  background-image:
+    url("./assets/img/hotel/holidayInn.webp"),
+    url("./assets/img/hotel/holidayInn.jpg");
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
@@ -12,17 +14,13 @@
   .container {
     width: 960px;
 
-    .title {
+    .hotel__title {
       background: $secondary-gradient-title;
       -webkit-background-clip: text;
       background-clip: text;
     }
 
-    .hotel-card {
-      margin-bottom: 20px;
-    }
-
-    #hotel-btn {
+    #hotel__btn {
       background: $secondary-gradient;
       border-color: $secondary-color-dark;
       margin: 20px 0;
@@ -41,35 +39,42 @@
       width: 100%;
     }
   }
-
-
 }
 
 #hotel {
-  background-image: url("./assets/img/hotel/holidayInn-576.webp"), url("./assets/img/hotel/holidayInn-576.jpg");
+  background-image:
+    url("./assets/img/hotel/holidayInn-576.webp"),
+    url("./assets/img/hotel/holidayInn-576.jpg");
 }
-
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
   #hotel {
-    background-image: url("./assets/img/hotel/holidayInn-768.webp"), url("./assets/img/hotel/holidayInn-768.jpg");
+    background-image:
+      url("./assets/img/hotel/holidayInn-768.webp"),
+      url("./assets/img/hotel/holidayInn-768.jpg");
   }
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width:768px) {
   #hotel {
-    background-image: url("./assets/img/hotel/holidayInn-992.webp"), url("./assets/img/hotel/holidayInn-992.jpg");
+    background-image:
+      url("./assets/img/hotel/holidayInn-992.webp"),
+      url("./assets/img/hotel/holidayInn-992.jpg");
   }
 }
 // Large devices (desktops, 992px and up)
 @media (min-width:992px) {
   #hotel {
-    background-image: url("./assets/img/hotel/holidayInn-1200.webp"), url("./assets/img/hotel/holidayInn-1200.jpg");
+    background-image:
+      url("./assets/img/hotel/holidayInn-1200.webp"),
+      url("./assets/img/hotel/holidayInn-1200.jpg");
   }
 }
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width:1200px) {
   #hotel {
-    background-image: url("./assets/img/hotel/holidayInn.webp"), url("./assets/img/hotel/holidayInn.jpg");
+    background-image:
+      url("./assets/img/hotel/holidayInn.webp"),
+      url("./assets/img/hotel/holidayInn.jpg");
   }
 }
