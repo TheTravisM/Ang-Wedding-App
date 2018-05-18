@@ -1,14 +1,30 @@
 <section id="rsvp">
   <div class="container">
-    <div class="row justify-content-center evelope">
-      <div class="col">
+    <div class="row justify-content-center">
+
+      <picture>
+          <source [attr.lazyLoad]="'./assets/img/rsvp/envlope-576.webp'">
+          <source [attr.lazyLoad]="'./assets/img/rsvp/envlope-576.png'">
+          <img class="rsvp-evelope-img img-fluid"
+            [defaultImage]="'./assets/img/rsvp/envlope-576-lowRez.jpg'"
+            [lazyLoad]="'./assets/img/rsvp/envlope-576.png'"
+            [offset]="100"
+            src="./assets/img/rsvp/envlope-576-lowRez.jpg">
+      </picture>
+
+      <div class="rsvp-content">
         <h2 class="title">rsvp</h2>
-        <div class="row d-flex justify-content-center">
-          <div>
-            <a id="rsvp-btn" class="btn btn-primary btn-lg" target="_blank" role="button" aria-disabled="true" href="https://goo.gl/forms/bYYFJeG4q2TUGntN2">Click to RSVP Now!</a>
-          </div>
-        </div>
+
+        <a id="rsvp-btn"
+          class="btn btn-primary btn-lg"
+          target="_blank"
+          role="button"
+          aria-disabled="true"
+          href="https://goo.gl/forms/bYYFJeG4q2TUGntN2">
+            Click to RSVP Now!
+        </a>
       </div>
+
     </div>
   </div>
 </section>

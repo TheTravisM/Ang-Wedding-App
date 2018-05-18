@@ -1,4 +1,4 @@
-ng build --prod --optimization
+`ng build --prod --build-optimizer`
 
 # Angular Wedding Application
 
