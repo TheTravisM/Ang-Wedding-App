@@ -25,4 +25,4 @@ let countDown = new Date('Sep 1, 2018 00:00:00').getTime(),
     document.getElementById('minutes').innerHTML =  minute,
     document.getElementById('seconds').innerHTML = second;
 
-  }, second)
+  }, second);

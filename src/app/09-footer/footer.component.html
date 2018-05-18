@@ -2,7 +2,12 @@
   <ul id="scene" class="scene unselectable" data-friction-x="0.1" data-friction-y="0.1" data-scalar-x="25" data-scalar-y="15">
     <li class="layer" data-depth="0.00"></li>
     <li class="layer" data-depth="0.10">
-      <div class="background"></div>
+      <div
+        class="background"
+        [defaultImage]="'./assets/img/footer/background-lowRez.jpg'"
+        [lazyLoad]="'./assets/img/footer/background.jpg'"
+        [offset]="100">
+      </div>
     </li>
     <li class="layer" data-depth="0.10">
       <div class="light orange b phase-4"></div>
@@ -16,7 +21,12 @@
     <li class="layer" data-depth="0.15">
       <ul class="rope depth-10">
         <li>
-          <img src="../assets/img/footer/rope.png" alt="Rope" />
+          <img
+            [defaultImage]=""
+            [lazyLoad]="'../assets/img/footer/rope.png'"
+            [offset]="100"
+            src=""
+            alt="Rope"/>
         </li>
         <li class="hanger position-2">
           <div class="board cloud-2 swing-1"></div>
@@ -41,7 +51,12 @@
     <li class="layer" data-depth="0.30">
       <ul class="rope depth-30">
         <li>
-          <img src="./assets/img/footer/rope.png" alt="Rope" />
+            <img
+            [defaultImage]=""
+            [lazyLoad]="'../assets/img/footer/rope.png'"
+            [offset]="100"
+            src=""
+            alt="Rope"/>
         </li>
         <li class="hanger position-1">
           <div class="board cloud-1 swing-3"></div>
@@ -58,7 +73,12 @@
     <li class="layer" data-depth="0.60">
       <ul class="rope depth-60">
         <li>
-          <img src="./assets/img/footer/rope.png" alt="Rope" />
+            <img
+            [defaultImage]=""
+            [lazyLoad]="'../assets/img/footer/rope.png'"
+            [offset]="100"
+            src=""
+            alt="Rope"/>
         </li>
         <li class="hanger position-3">
           <div class="board birds swing-5"></div>
