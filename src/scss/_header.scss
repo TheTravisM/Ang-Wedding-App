@@ -16,13 +16,20 @@ $shadows-big: multiple-box-shadow(100);
   background: radial-gradient(ellipse at bottom, $primary-color-dark 0%, #090A0F 100%);
   overflow: hidden;
 
-  #sceneX {
-    width: 100%;
-  }
+  #sceneX { width: 100%; }
 
   .hgroup {
     align-self: center;
     flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-title {
+    max-width: 1400px;
+    margin: 0 10px;
   }
 
   h1, h2, time {

@@ -10,11 +10,11 @@
       <div class="col-12 col-sm-6">
         <h3 class="h3-title">Bridesmaids</h3>
         <div class="col-12 mb-5" *ngFor="let person of bridesmaids">
-          <picture>
+          <picture class="wedding-party__picture">
             <source [attr.lazyLoad]="person['webp']">
             <source [attr.lazyLoad]="person['image']">
             <img class="wedding-party-img img-fluid img-thumbnail mb-2"
-              [defaultImage]="person['lowRez']"
+              [defaultImage]=""
               [lazyLoad]="person['image']"
               [offset]="100">
           </picture>
@@ -30,7 +30,7 @@
                   <source [attr.lazyLoad]="person['webp']">
                   <source [attr.lazyLoad]="person['image']">
                   <img class="wedding-party-img img-fluid img-thumbnail mb-2"
-                    [defaultImage]="person['lowRez']"
+                    [defaultImage]=""
                     [lazyLoad]="person['image']"
                     [offset]="100">
                 </picture>

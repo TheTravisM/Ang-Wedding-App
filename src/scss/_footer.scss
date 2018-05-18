@@ -1,14 +1,13 @@
 #footer {
   background-color: #000;
   border-radius: 0;
-  color: #FFF;
+  color: $secondary-color;
   height: 100vh;
   min-height: 300px;
   display: block;
   padding: 0;
   margin: 0;
 
-  hgroup,
   .hgroup {
     position: absolute;
     align-self: center;
@@ -17,58 +16,36 @@
     top: 30%;
     left: 0;
     right: 0;
+    align-self: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
-  @mixin header-style {
+  time {
     background: -webkit-linear-gradient($secondary-color-light, $secondary-color-dark);
-    font-family: "Germanika";
     letter-spacing: .05em;
     margin: 0 auto;
     margin-left: auto;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
-
-  h1, h2, time {
-    @include header-style;
     color: $secondary-color;
-  }
-
-  time {
     font-family: 'Open Sans', sans-serif;
     line-height: 1;
   }
+
   // Extra small devices (portrait phones, less than 576px)
   // No media query since this is the default in Bootstrap
   // Small devices (landscape phones, 576px and up)
-  h1 {
-    font-size: 18vw;
-    height: 1.33em;
-  }
 
-  h2 {
-    font-size: 15vw;
-    height: 1.2em;
-    margin-top: -3%
-  }
-
-  time {
-    font-size: 9vw;
-  }
+  time { font-size: 9vw; }
 
   @media (min-width: 567px) {
     hgroup {
       top: 26%;
     }
-
-    h1 {
-      font-size: 10vw;
-    }
-
-    h2 {
-      font-size: 7vw;
-    }
-
     time {
       font-size: 4vw;
       margin-top: -1.6%;
@@ -82,21 +59,11 @@
     hgroup {
       top: 20%;
     }
-
-    h1 {
-      font-size: 10vw;
-    }
-
-    h2 {
-      font-size: 7vw;
-    }
-
     time {
       font-size: 4vw;
       margin-top: -1.6%;
     }
   }
-
 
   ul {
     list-style-type: none;
@@ -138,22 +105,8 @@
     }
   }
 
-  .title {
-    color: RGBA(57,255,20,1);
-    font-size: 3em;
-    text-shadow: 0 8px 6px rgba(0, 0, 0, 0.6);
-    text-align: center;
-    margin-top: -0.7em;
-    position: absolute;
-    width: 100%;
-    top: 42%;
-    left: 0;
-    right: 0;
-  }
-
-
   .background {
-    background: url('./assets/img/footer/background.jpg') no-repeat 50% 100% fixed;
+    background: no-repeat 50% 100% fixed;
     bottom: 96px;
     background-size: cover;
     position: absolute;
