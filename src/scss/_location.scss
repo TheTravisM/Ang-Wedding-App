@@ -1,5 +1,5 @@
 #location {
-  background-image: url("./assets/img/location/ihm_BG.webp"), url("./assets/img/location/ihm_BG.png");
+  background-image: url("./assets/img/location/ihm_BG-576.webp"), url("./assets/img/location/ihm_BG-576.jpf"), url("./assets/img/location/ihm_BG-576.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -34,7 +34,8 @@
 #location {
   background-image:
     url("./assets/img/location/ihm_BG-576.webp"),
-    url("./assets/img/location/ihm_BG-576.png");
+    url("./assets/img/location/ihm_BG-576.jpf"),
+    url("./assets/img/location/ihm_BG-576.jpg");
 }
 
 // Small devices (landscape phones, 576px and up)
@@ -42,7 +43,8 @@
   #location {
     background-image:
       url("./assets/img/location/ihm_BG-768.webp"),
-      url("./assets/img/location/ihm_BG-768.png");
+      url("./assets/img/location/ihm_BG-768.jpf"),
+      url("./assets/img/location/ihm_BG-768.jpg");
   }
 }
 // Medium devices (tablets, 768px and up)
@@ -50,7 +52,8 @@
   #location {
     background-image:
       url("./assets/img/location/ihm_BG-992.webp"),
-      url("./assets/img/location/ihm_BG-992.png");
+      url("./assets/img/location/ihm_BG-992.jpf"),
+      url("./assets/img/location/ihm_BG-992.jpg");
   }
 }
 // Large devices (desktops, 992px and up)
@@ -58,7 +61,8 @@
   #location {
     background-image:
       url("./assets/img/location/ihm_BG-1200.webp"),
-      url("./assets/img/location/ihm_BG-1200.png");
+      url("./assets/img/location/ihm_BG-1200.jpf"),
+      url("./assets/img/location/ihm_BG-1200.jpg");
   }
 }
 // Extra large devices (large desktops, 1200px and up)
@@ -66,6 +70,7 @@
   #location {
     background-image:
       url("./assets/img/location/ihm_BG.webp"),
-      url("./assets/img/location/ihm_BG.png");
+      url("./assets/img/location/ihm_BG.jpf"),
+      url("./assets/img/location/ihm_BG.jpg");
   }
 }

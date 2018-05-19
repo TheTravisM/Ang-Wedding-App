@@ -2,34 +2,42 @@
   <div class="container">
     <div class="row d-flex justify-content-center">
       <div class="col">
+
         <h2 class="title">Registry</h2>
+
         <div id="registry-btn-container" class="d-flex justify-content-center flex-column flex-sm-row">
+
+          <!-- Amazon Button -->
           <div>
             <a href="https://smile.amazon.com/wedding/share/jackietravis"
               target="_blank"
               id="btn-amazon"
               class="btn my-3 my-sm-0 mx-0 mx-sm-3">
-              <img src="./assets/img/registry/amazon.svg"
-                alt="triangle with all three sides equal"
-                height=""
-                width="200px" />
+              <img src=""
+                alt="Amazon Logo"
+                [lazyLoad]="'./assets/img/registry/amazon.svg'"
+                [offset]="250"
+                [defaultImage]=""/>
             </a>
           </div>
+
+          <!-- Bed Bath Button -->
           <div>
             <a
               href="https://www.bedbathandbeyond.com:443/store/giftregistry/view_registry_guest.jsp?registryId=544715691&eventType=Wedding&pwsurl="
               target="_blank"
               id="btn-bedbath"
               class="btn my-3 my-sm-0 mx-sm-3">
-              <img src="./assets/img/registry/bedbath.svg"
-                alt="triangle with all three sides equal"
-                height=""
-                width="200px" />
+              <img src=""
+                alt="Bed Bath and Beyond Logo"
+                [lazyLoad]="'./assets/img/registry/bedbath.svg'"
+                [offset]="250"
+                [defaultImage]=""/>
             </a>
           </div>
-        </div>
+        </div> <!-- ./registry-btn-container -->
 
-      </div>
-    </div>
-  </div>
+      </div> <!-- ./col -->
+    </div> <!-- ./ row -->
+  </div> <!-- ./ container -->
 </section>
