@@ -10,22 +10,31 @@
       </div>
     </li>
     <li class="layer" data-depth="0.10">
-      <div class="light orange b phase-4"></div>
+      <div class="light orange b phase-4"
+      [defaultImage]=""
+      [lazyLoad]="'./assets/img/footer/light-orange.png'"
+      [offset]="300"></div>
     </li>
     <li class="layer" data-depth="0.10">
-      <div class="light purple c phase-5"></div>
+      <div class="light purple c phase-5"
+      [defaultImage]=""
+      [lazyLoad]="'./assets/img/footer/light-purple.png'"
+      [offset]="300"></div>
     </li>
     <li class="layer" data-depth="0.10">
-      <div class="light orange d phase-3"></div>
+      <div class="light orange d phase-3"
+      [defaultImage]=""
+      [lazyLoad]="'./assets/img/footer/light-orange.png'"
+      [offset]="300"></div>
     </li>
     <li class="layer" data-depth="0.15">
       <ul class="rope depth-10">
         <li>
           <img
-            [defaultImage]=""
-            [lazyLoad]="'../assets/img/footer/rope.png'"
-            [offset]="300"
             src=""
+            [defaultImage]=""
+            [lazyLoad]="'./assets/img/footer/rope.png'"
+            [offset]="300"
             alt="Rope"/>
         </li>
         <li class="hanger position-2">
@@ -43,8 +52,8 @@
 
       <div class="hgroup">
         <img class="footer__title"
-          [defaultImage]=""
           src=""
+          [defaultImage]=""
           [lazyLoad]="'./assets/img/footer/footer-title.svg'"
           [offset]="400"
           alt="Jackie And Travis Wedding"
@@ -57,10 +66,10 @@
       <ul class="rope depth-30">
         <li>
             <img
-            [defaultImage]=""
-            [lazyLoad]="'../assets/img/footer/rope.png'"
-            [offset]="100"
             src=""
+            [defaultImage]=""
+            [lazyLoad]="'./assets/img/footer/rope.png'"
+            [offset]="100"
             alt="Rope"/>
         </li>
         <li class="hanger position-1">
@@ -71,18 +80,36 @@
         </li>
       </ul>
     </li>
-    <li class="layer" data-depth="0.30"><div class="wave paint depth-30"></div></li>
-    <li class="layer" data-depth="0.40"><div class="wave plain depth-40"></div></li>
-    <li class="layer" data-depth="0.50"><div class="wave paint depth-50"></div></li>
+    <li class="layer" data-depth="0.30">
+      <div class="wave paint depth-30"
+      [defaultImage]=""
+      [lazyLoad]="'./assets/img/footer/wave-paint.png'"
+      [offset]="300"></div>
+    </li>
+
+    <li class="layer" data-depth="0.40">
+      <div class="wave plain depth-40"
+        [defaultImage]=""
+        [lazyLoad]="'./assets/img/footer/wave-plain.png'"
+        [offset]="300">
+      </div>
+    </li>
+
+    <li class="layer" data-depth="0.50">
+      <div class="wave paint depth-50"
+      [defaultImage]=""
+      [lazyLoad]="'./assets/img/footer/wave-paint.png'"
+      [offset]="300"></div>
+    </li>
     <li class="layer" data-depth="0.60"><div class="lighthouse depth-60"></div></li>
     <li class="layer" data-depth="0.60">
       <ul class="rope depth-60">
         <li>
             <img
-            [defaultImage]=""
-            [lazyLoad]="'../assets/img/footer/rope.png'"
-            [offset]="100"
             src=""
+            [defaultImage]=""
+            [lazyLoad]="'./assets/img/footer/rope.png'"
+            [offset]="300"
             alt="Rope"/>
         </li>
         <li class="hanger position-3">
@@ -96,8 +123,23 @@
         </li>
       </ul>
     </li>
-    <li class="layer" data-depth="0.60"><div class="wave plain depth-60"></div></li>
-    <li class="layer" data-depth="0.80"><div class="wave plain depth-80"></div></li>
-    <li class="layer" data-depth="1.00"><div class="wave paint depth-100"></div></li>
+    <li class="layer" data-depth="0.60">
+      <div class="wave plain depth-60"
+      [defaultImage]=""
+      [lazyLoad]="'./assets/img/footer/wave-plain.png'"
+      [offset]="300"></div>
+    </li>
+    <li class="layer" data-depth="0.80">
+      <div class="wave plain depth-80"
+        [defaultImage]=""
+        [lazyLoad]="'./assets/img/footer/wave-plain.png'"
+        [offset]="300"></div>
+    </li>
+    <li class="layer" data-depth="1.00">
+      <div class="wave paint depth-100"
+        [defaultImage]=""
+        [lazyLoad]="'./assets/img/footer/wave-paint.png'"
+        [offset]="300"></div>
+    </li>
   </ul>
 </footer>

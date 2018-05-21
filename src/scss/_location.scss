@@ -1,5 +1,4 @@
 #location {
-  background-image: url("./assets/img/location/ihm_BG-576.webp"), url("./assets/img/location/ihm_BG-576.jpf"), url("./assets/img/location/ihm_BG-576.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -31,46 +30,52 @@
   }
 }
 
+// Small devices (landscape phones, 0 to 576px)
 #location {
+  background-image: url("./assets/img/location/ihm_BG-576.jpg");
   background-image:
-    url("./assets/img/location/ihm_BG-576.webp"),
-    url("./assets/img/location/ihm_BG-576.jpf"),
-    url("./assets/img/location/ihm_BG-576.jpg");
+    image ( "./assets/img/location/ihm_BG-576.webp" format('webp'),
+            "./assets/img/location/ihm_BG-576.jpf" format('jpf'),
+            "./assets/img/location/ihm_BG-576.jpg");
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
   #location {
+    background-image: url("./assets/img/location/ihm_BG-768.jpg");
     background-image:
-      url("./assets/img/location/ihm_BG-768.webp"),
-      url("./assets/img/location/ihm_BG-768.jpf"),
-      url("./assets/img/location/ihm_BG-768.jpg");
+      image ( "./assets/img/location/ihm_BG-768.webp" format('webp'),
+              "./assets/img/location/ihm_BG-768.jpf" format('jpf'),
+              "./assets/img/location/ihm_BG-768.jpg");
   }
 }
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   #location {
+    background-image: url("./assets/img/location/ihm_BG-992.jpg");
     background-image:
-      url("./assets/img/location/ihm_BG-992.webp"),
-      url("./assets/img/location/ihm_BG-992.jpf"),
-      url("./assets/img/location/ihm_BG-992.jpg");
+      image ( "./assets/img/location/ihm_BG-992.webp" format('webp'),
+              "./assets/img/location/ihm_BG-992.jpf" format('jpf'),
+              "./assets/img/location/ihm_BG-992.jpg");
   }
 }
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   #location {
+    background-image: url("./assets/img/location/ihm_BG-1200.jpg");
     background-image:
-      url("./assets/img/location/ihm_BG-1200.webp"),
-      url("./assets/img/location/ihm_BG-1200.jpf"),
-      url("./assets/img/location/ihm_BG-1200.jpg");
+      image ( "./assets/img/location/ihm_BG-1200.webp" format('webp'),
+              "./assets/img/location/ihm_BG-1200.jpf" format('jpf'),
+              "./assets/img/location/ihm_BG-1200.jpg");
   }
 }
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
   #location {
+    background-image: url("./assets/img/location/ihm_BG.jpg");
     background-image:
-      url("./assets/img/location/ihm_BG.webp"),
-      url("./assets/img/location/ihm_BG.jpf"),
-      url("./assets/img/location/ihm_BG.jpg");
+      image ( "./assets/img/location/ihm_BG.webp" format('webp'),
+              "./assets/img/location/ihm_BG.jpf" format('jpf'),
+              "./assets/img/location/ihm_BG.jpg");
   }
 }
