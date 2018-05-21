@@ -4,9 +4,9 @@
     <li class="layer" data-depth="0.10">
       <div
         class="background"
-        [defaultImage]="'./assets/img/footer/background-lowRez.jpg'"
+        [defaultImage]=""
         [lazyLoad]="'./assets/img/footer/background.jpg'"
-        [offset]="100">
+        [offset]="300">
       </div>
     </li>
     <li class="layer" data-depth="0.10">
@@ -24,7 +24,7 @@
           <img
             [defaultImage]=""
             [lazyLoad]="'../assets/img/footer/rope.png'"
-            [offset]="100"
+            [offset]="300"
             src=""
             alt="Rope"/>
         </li>
@@ -42,7 +42,13 @@
     <li class="layer title-flex-box" data-depth="0.20">
 
       <div class="hgroup">
-        <img class="footer__title" src="./assets/img/footer/footer-title.svg">
+        <img class="footer__title"
+          [defaultImage]=""
+          src=""
+          [lazyLoad]="'./assets/img/footer/footer-title.svg'"
+          [offset]="400"
+          alt="Jackie And Travis Wedding"
+        />
         <time dateTime="2018-09-01">Sept 1st 2018</time>
       </div>
 
