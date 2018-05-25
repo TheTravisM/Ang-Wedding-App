@@ -44,14 +44,4 @@
         align-items: center;
 }
 
-@mixin btn--primary {
-  background: -webkit-linear-gradient(#7200ca, #300055);
-  border-color: #7200ca;
-  text-shadow: 0 0 0 #000;
-  &:hover {
-    border-color: #300055;
-    -webkit-box-shadow: 0px 0px 5px #333;
-            box-shadow: 0px 0px 5px #333;
-           text-shadow: 0px 0px 4px #fff;
-  }
-}
+
