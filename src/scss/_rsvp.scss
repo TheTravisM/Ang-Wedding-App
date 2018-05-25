@@ -24,14 +24,5 @@
   // Medium devices (tablets, 768px and up)
   @media (min-width: 768px) { .rsvp-content { padding: 50px 0 0; } }
 
-  #rsvp-btn {
-    background: $primary-gradient;
-    border-color: $primary-color-dark;
-    text-shadow: 0 0 0 #000;
-    &:hover {
-      border-color: $primary-color-darker;
-      box-shadow: 0px 0px 5px #333;
-      text-shadow: 0px 0px 4px #fff;
-    }
-  }
+  #rsvp-btn { }
 }
