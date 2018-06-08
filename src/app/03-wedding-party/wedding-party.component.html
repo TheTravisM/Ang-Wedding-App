@@ -22,21 +22,21 @@
         </div>
       </div>
 
-            <!-- Groomsmen -->
-            <div class="col-12 col-sm-6">
-              <h3 class="h3-title">Groomsmen</h3>
-              <div class="col-12 mb-5" *ngFor="let person of groomsmen">
-                <picture class="wedding-party__picture">
-                  <source [attr.lazyLoad]="person['webp']">
-                  <source [attr.lazyLoad]="person['image']">
-                  <img class="wedding-party__img img-fluid img-thumbnail mb-2"
-                    [defaultImage]=""
-                    [lazyLoad]="person['image']"
-                    [offset]="250">
-                </picture>
-                <h4>{{person['name']}}</h4>
-              </div>
-            </div>
+      <!-- Groomsmen -->
+      <div class="col-12 col-sm-6">
+        <h3 class="h3-title">Groomsmen</h3>
+        <div class="col-12 mb-5" *ngFor="let person of groomsmen">
+          <picture class="wedding-party__picture">
+            <source [attr.lazyLoad]="person['webp']">
+            <source [attr.lazyLoad]="person['image']">
+            <img class="wedding-party__img img-fluid img-thumbnail mb-2"
+              [defaultImage]=""
+              [lazyLoad]="person['image']"
+              [offset]="250">
+          </picture>
+          <h4>{{person['name']}}</h4>
+        </div>
+      </div>
 
 
       <!-- <div class="col-12 col-sm-6">
@@ -51,6 +51,6 @@
           </div>
       </div> -->
 
-    </div>
-  </div>
+    </div> <!-- ./row -->
+  </div> <!-- ./container -->
 </section>
