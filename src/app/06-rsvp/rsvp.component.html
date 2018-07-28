@@ -3,8 +3,9 @@
     <div class="row justify-content-center">
 
       <picture>
-          <source [attr.lazyLoad]="'./assets/img/rsvp/envlope-576.webp'">
-          <source [attr.lazyLoad]="'./assets/img/rsvp/envlope-576.png'">
+          <source type="image/webp" [attr.lazyLoad]="'./assets/img/rsvp/envlope-576.webp'">
+          <source type="image/jpf" [attr.lazyLoad]="'./assets/img/rsvp/envlope-576.jpf'">
+          <source type="image/png" [attr.lazyLoad]="'./assets/img/rsvp/envlope-576.png'">
           <img class="rsvp-evelope-img img-fluid"
             src=""
             [defaultImage]=""

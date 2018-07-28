@@ -11,8 +11,10 @@
         <h3 class="h3-title">Bridesmaids</h3>
         <div class="col-12 mb-5" *ngFor="let person of bridesmaids">
           <picture class="wedding-party__picture">
-            <source [attr.lazyLoad]="person['webp']">
-            <source [attr.lazyLoad]="person['image']">
+
+            <source type="image/webp" [attr.lazyLoad]="person['webp']">
+            <source type="image/jpf" [attr.lazyLoad]="person['jpf']">
+            <source type="image/jpg" [attr.lazyLoad]="person['image']">
             <img class="wedding-party__img img-fluid img-thumbnail mb-2"
               [defaultImage]=""
               [lazyLoad]="person['image']"
@@ -27,8 +29,9 @@
         <h3 class="h3-title">Groomsmen</h3>
         <div class="col-12 mb-5" *ngFor="let person of groomsmen">
           <picture class="wedding-party__picture">
-            <source [attr.lazyLoad]="person['webp']">
-            <source [attr.lazyLoad]="person['image']">
+            <source type="image/webp" [attr.lazyLoad]="person['webp']">
+            <source type="image/jpf" [attr.lazyLoad]="person['jpf']">
+            <source type="image/jpg" [attr.lazyLoad]="person['image']">
             <img class="wedding-party__img img-fluid img-thumbnail mb-2"
               [defaultImage]=""
               [lazyLoad]="person['image']"
